@@ -10,8 +10,13 @@ class _AboutUsPageState extends State<AboutUsPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Container(
-          child:Text('aboutPage')
+        body: Column(
+          children: [
+            Container(
+              child:Text('aboutPage')
+            ),
+            Icon(Icons.add);
+          ],
         )
       ),
     );
