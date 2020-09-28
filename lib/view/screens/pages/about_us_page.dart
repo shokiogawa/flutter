@@ -15,7 +15,7 @@ class _AboutUsPageState extends State<AboutUsPage> {
             Container(
               child:Text('aboutPage')
             ),
-            Icon(Icons.add);
+            Icon(Icons.add)
           ],
         )
       ),
