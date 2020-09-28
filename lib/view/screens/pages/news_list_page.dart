@@ -15,7 +15,7 @@ class NewsListPage extends StatelessWidget {
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.refresh),
-          tooltip: "更新",
+          tooltip: "更新してね",
           onPressed: () {
             onRefresh(context);
           },
